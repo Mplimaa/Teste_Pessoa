@@ -1,0 +1,53 @@
+# Projeto: Classe Pessoa com Testes em Python
+
+Este projeto contém a implementação de uma classe `Pessoa` com atributos básicos como nome, idade, CPF e endereço. O projeto também inclui testes automatizados para garantir o correto funcionamento dos métodos relacionados ao CPF.
+
+## Estrutura do Projeto
+
+
+├── pessoa.py # Implementação da classe Pessoa
+└── test_pessoa.py # Testes para a classe Pessoa
+
+
+- Inicialização com nome, idade, CPF e endereço.
+- Métodos:
+  - `falar()` e `andar()` para interações simples.
+  - `get_cpf()` e `set_cpf()` com validação básica.
+  - `get_endereco()` e `set_endereco()`.
+
+>  Obs.: A função `set_endereco()` contém um pequeno erro ao usar `endereco` ao invés de `novo_endereco` na validação. Também há uma tentativa de retorno de `self._endereco`, que não existe.
+
+
+## Como Executar
+
+### Requisitos
+- Python 3.x instalado
+
+### Execução Manual (Modo Interativo)
+```bash
+python pessoa.py
+
+
+
+Utilize o framework pytest para rodar os testes da classe.
+pip install pytest
+pytest test_pessoa.py
+
+
+
+Testes Incluídos
+
+test_get_cpf(): Verifica se o CPF é retornado corretamente.
+test_set_cpf_valido(): Testa a alteração do CPF com um valor válido.
+test_set_cpf_invalido(): Garante que o CPF não muda se for inválido.
+
+
+
+Melhorias Futuras
+
+Corrigir o método set_endereco().
+Melhorar a validação do CPF (atualmente baseada apenas no comprimento da string).
+Adicionar mais testes para métodos como get_endereco() e set_endereco().
+
+
+Obs: Repositório criado somente para fins educacionais, Michele Lima - 2025.
