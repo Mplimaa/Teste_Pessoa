@@ -1,6 +1,6 @@
 # Projeto: Classe Pessoa com Teste de unidade em Python
 
-Este projeto contém a implementação de uma classe `Pessoa` com atributos básicos como nome, idade, CPF e endereço. O projeto também inclui testes automatizados para garantir o correto funcionamento dos métodos relacionados ao CPF.
+Este projeto contém a implementação de uma classe `Pessoa` com atributos básicos como nome, idade, CPF e endereço. O projeto também inclui testes de unidade para garantir o correto funcionamento dos métodos relacionados ao CPF.
 
 ## Estrutura do Projeto
 
