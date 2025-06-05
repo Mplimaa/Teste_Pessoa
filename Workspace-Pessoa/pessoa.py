@@ -24,7 +24,7 @@ class Pessoa:
         return self.__endereco
     
     def set_endereco(self, novo_endereco):
-        if isinstance(endereco, str) and len(novo_endereco) == 200:
+        if isinstance(endereco, str) and len(novo_endereco) <= 200:
             self.__endereco = novo_endereco
         else:
             print(" endereco Inválido")
