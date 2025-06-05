@@ -44,7 +44,7 @@ test_set_cpf_invalido(): Nesta função, se o cpf for igual a 123.456.789-00, ir
 O método test_set_cpf_invalido, Garante que o CPF não muda se for inválido, caso contrário sim.
 
 Correção
-Quantidade de string do endereço >= 200
+Quantidade de string do endereço <= 200
 
 Melhorias Futuras
 Melhorar a validação do CPF (atualmente baseada apenas no comprimento da string).
