@@ -31,21 +31,22 @@ python pessoa.py
 
 Utilize o framework pytest para rodar os testes da classe.
 pip install pytest
-pytest test_pessoa.py
+
+pytest test_pessoa.py -> pra testar o cpf , este arquivo acessa a classe pessoa para efetivar o teste
 
 
 
 Testes Incluídos
 
-test_get_cpf(): Verifica se o CPF é retornado corretamente.
-test_set_cpf_valido(): Testa a alteração do CPF com um valor válido.
-test_set_cpf_invalido(): Garante que o CPF não muda se for inválido.
+test_get_cpf(): Verifica se o CPF 123.456.789-00 é retornado corretamente.
+test_set_cpf_valido(): Testa a alteração do CPF de:  123.456.789-00  para: 987.654.321-00 com um valor válido.
+test_set_cpf_invalido(): Nesta função, se o cpf for igual a 123.456.789-00, irá retornar que está inválido, caso contrário for informado o nome cpf na instancia do objeto está correto.
+O método test_set_cpf_invalido, Garante que o CPF não muda se for inválido, caso contrário sim.
 
-
+Correção
+Quantidade de string do endereço >= 200
 
 Melhorias Futuras
-
-Corrigir o método set_endereco().
 Melhorar a validação do CPF (atualmente baseada apenas no comprimento da string).
 Adicionar mais testes para métodos como get_endereco() e set_endereco().
 
