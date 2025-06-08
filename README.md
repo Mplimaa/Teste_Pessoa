@@ -21,6 +21,7 @@ Este projeto contém a implementação de uma classe `Pessoa` com atributos bás
 
 ### Requisitos
 - Python 3.x instalado
+- baixado os pacotes do Pytest na pasta do repositório 
 
 ### Execução Manual (Modo Interativo)
 ```bash
