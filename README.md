@@ -5,8 +5,8 @@ Este projeto contém a implementação de uma classe `Pessoa` com atributos bás
 ## Estrutura do Projeto
 
 
-├── pessoa.py # Implementação da classe Pessoa
-└── test_pessoa.py # Testes para a classe Pessoa
+ pessoa.py # Implementação da classe Pessoa
+ test_pessoa.py # Testes para a classe Pessoa
 
 
 - Inicialização com nome, idade, CPF e endereço.
@@ -15,7 +15,6 @@ Este projeto contém a implementação de uma classe `Pessoa` com atributos bás
   - `get_cpf()` e `set_cpf()` com validação básica.
   - `get_endereco()` e `set_endereco()`.
 
->  Obs.: A função `set_endereco()` contém um pequeno erro ao usar `endereco` ao invés de `novo_endereco` na validação. Também há uma tentativa de retorno de `self._endereco`, que não existe.
 
 
 ## Como Executar
